@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("../img/Bkg.jpg");
+	width: auto;
+	align-content: center;
+	text-align-last: center;
+	color: #FFFFFF;
+}
+legend{
+	align-content: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	height: 200px;
+	
+}
+p input {
+	align-items: flex-start;
+	text-decoration-color: #000000;
+}

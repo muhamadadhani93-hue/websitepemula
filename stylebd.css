@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+body{
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 300 !important;
+	background-color:#6C0000;
+  background-size:auto;
+  background-attachment: scroll;
+	text-align: left;
+	color: white;
+}
+main{
+  width: 100%;
+  min-height: 100vh;
+}
+a{
+  text-decoration: none !important;
+}
+p{
+	color: white;
+}
+body .bg-light{
+	align-items: left;
+	
+}
+.profile img{
+  object-fit: cover;
+}
+.profile h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0px 8px 0px;
+}
+.social-link a{
+  font-size: 22px;
+}
+.button-link{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	opacity: inherit;
+}
+.bg-success {
+	color: white;
+}
+.button-link img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.button-link p, .badge {
+  font-weight: 500 !important;
+	color: #FFFFFF;
+}
+span .badge .bg-success{
+	padding: 3em;
+}
+
+/* Medium devices(tablets, 768px and up) */@media (min-width:768px) {
+  main {
+    max-width: 420px;
+  }
+}
